@@ -31,27 +31,27 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.class_toolstr = new System.Windows.Forms.ToolStrip();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.first_call_tlstr = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
+            this.second_call_tlstr = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+            this.third_call_tlstr = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
+            this.four_call_tlstr = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
+            this.fifth_call_tlstr = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
+            this.six_call_tlstr = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
+            this.seventh_call_tlstr = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
+            this.eighth_call_tlstr = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton9 = new System.Windows.Forms.ToolStripButton();
+            this.ninth_call_tlstr = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton10 = new System.Windows.Forms.ToolStripButton();
+            this.tenth_call_tlstr = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton11 = new System.Windows.Forms.ToolStripButton();
+            this.eleventh_call_tlstr = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
             this.earn_day_kal_lbl = new System.Windows.Forms.Label();
             this.gran = new System.Windows.Forms.Label();
@@ -90,6 +90,17 @@
             this.add_dish_btn = new System.Windows.Forms.Button();
             this.del_dish_btn = new System.Windows.Forms.Button();
             this.line = new System.Windows.Forms.Label();
+            this.proteins_lbl = new System.Windows.Forms.Label();
+            this.fats_lbl = new System.Windows.Forms.Label();
+            this.carbohydrates_lbl = new System.Windows.Forms.Label();
+            this.norm_lbl = new System.Windows.Forms.Label();
+            this.typed_lbl = new System.Windows.Forms.Label();
+            this.norm_proteins_lbl = new System.Windows.Forms.Label();
+            this.norm_fats_lbl = new System.Windows.Forms.Label();
+            this.norm_carbohydrates_lbl = new System.Windows.Forms.Label();
+            this.typed_proteins_lbl = new System.Windows.Forms.Label();
+            this.typed_fats_lbl = new System.Windows.Forms.Label();
+            this.typed_carbohydrates_lbl = new System.Windows.Forms.Label();
             this.class_toolstr.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -99,200 +110,201 @@
             this.class_toolstr.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.class_toolstr.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripSeparator1,
-            this.toolStripButton1,
+            this.first_call_tlstr,
             this.toolStripSeparator2,
-            this.toolStripButton2,
+            this.second_call_tlstr,
             this.toolStripSeparator3,
-            this.toolStripButton3,
+            this.third_call_tlstr,
             this.toolStripSeparator4,
-            this.toolStripButton4,
+            this.four_call_tlstr,
             this.toolStripSeparator5,
-            this.toolStripButton5,
+            this.fifth_call_tlstr,
             this.toolStripSeparator6,
-            this.toolStripButton6,
+            this.six_call_tlstr,
             this.toolStripSeparator7,
-            this.toolStripButton7,
+            this.seventh_call_tlstr,
             this.toolStripSeparator8,
-            this.toolStripButton8,
+            this.eighth_call_tlstr,
             this.toolStripSeparator9,
-            this.toolStripButton9,
+            this.ninth_call_tlstr,
             this.toolStripSeparator10,
-            this.toolStripButton10,
+            this.tenth_call_tlstr,
             this.toolStripSeparator11,
-            this.toolStripButton11,
+            this.eleventh_call_tlstr,
             this.toolStripSeparator12});
             this.class_toolstr.Location = new System.Drawing.Point(0, 0);
             this.class_toolstr.Name = "class_toolstr";
             this.class_toolstr.Size = new System.Drawing.Size(1285, 33);
             this.class_toolstr.TabIndex = 0;
             this.class_toolstr.Text = "toolStrip1";
+            this.class_toolstr.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.class_toolstr_ItemClicked_1);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(6, 33);
             // 
-            // toolStripButton1
+            // first_call_tlstr
             // 
-            this.toolStripButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton1.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.toolStripButton1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(97, 30);
-            this.toolStripButton1.Text = "1 классы";
+            this.first_call_tlstr.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.first_call_tlstr.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.first_call_tlstr.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.first_call_tlstr.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.first_call_tlstr.Image = ((System.Drawing.Image)(resources.GetObject("first_call_tlstr.Image")));
+            this.first_call_tlstr.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.first_call_tlstr.Name = "first_call_tlstr";
+            this.first_call_tlstr.Size = new System.Drawing.Size(97, 30);
+            this.first_call_tlstr.Text = "1 классы";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
             this.toolStripSeparator2.Size = new System.Drawing.Size(6, 33);
             // 
-            // toolStripButton2
+            // second_call_tlstr
             // 
-            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton2.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
-            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(100, 30);
-            this.toolStripButton2.Text = "2 классы";
+            this.second_call_tlstr.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.second_call_tlstr.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.second_call_tlstr.Image = ((System.Drawing.Image)(resources.GetObject("second_call_tlstr.Image")));
+            this.second_call_tlstr.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.second_call_tlstr.Name = "second_call_tlstr";
+            this.second_call_tlstr.Size = new System.Drawing.Size(100, 30);
+            this.second_call_tlstr.Text = "2 классы";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
             this.toolStripSeparator3.Size = new System.Drawing.Size(6, 33);
             // 
-            // toolStripButton3
+            // third_call_tlstr
             // 
-            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton3.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
-            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(100, 30);
-            this.toolStripButton3.Text = "3 классы";
+            this.third_call_tlstr.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.third_call_tlstr.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.third_call_tlstr.Image = ((System.Drawing.Image)(resources.GetObject("third_call_tlstr.Image")));
+            this.third_call_tlstr.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.third_call_tlstr.Name = "third_call_tlstr";
+            this.third_call_tlstr.Size = new System.Drawing.Size(100, 30);
+            this.third_call_tlstr.Text = "3 классы";
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
             this.toolStripSeparator4.Size = new System.Drawing.Size(6, 33);
             // 
-            // toolStripButton4
+            // four_call_tlstr
             // 
-            this.toolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton4.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
-            this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton4.Name = "toolStripButton4";
-            this.toolStripButton4.Size = new System.Drawing.Size(100, 30);
-            this.toolStripButton4.Text = "4 классы";
+            this.four_call_tlstr.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.four_call_tlstr.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.four_call_tlstr.Image = ((System.Drawing.Image)(resources.GetObject("four_call_tlstr.Image")));
+            this.four_call_tlstr.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.four_call_tlstr.Name = "four_call_tlstr";
+            this.four_call_tlstr.Size = new System.Drawing.Size(100, 30);
+            this.four_call_tlstr.Text = "4 классы";
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
             this.toolStripSeparator5.Size = new System.Drawing.Size(6, 33);
             // 
-            // toolStripButton5
+            // fifth_call_tlstr
             // 
-            this.toolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton5.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.toolStripButton5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton5.Image")));
-            this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton5.Name = "toolStripButton5";
-            this.toolStripButton5.Size = new System.Drawing.Size(100, 30);
-            this.toolStripButton5.Text = "5 классы";
+            this.fifth_call_tlstr.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.fifth_call_tlstr.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.fifth_call_tlstr.Image = ((System.Drawing.Image)(resources.GetObject("fifth_call_tlstr.Image")));
+            this.fifth_call_tlstr.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.fifth_call_tlstr.Name = "fifth_call_tlstr";
+            this.fifth_call_tlstr.Size = new System.Drawing.Size(100, 30);
+            this.fifth_call_tlstr.Text = "5 классы";
             // 
             // toolStripSeparator6
             // 
             this.toolStripSeparator6.Name = "toolStripSeparator6";
             this.toolStripSeparator6.Size = new System.Drawing.Size(6, 33);
             // 
-            // toolStripButton6
+            // six_call_tlstr
             // 
-            this.toolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton6.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.toolStripButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton6.Image")));
-            this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton6.Name = "toolStripButton6";
-            this.toolStripButton6.Size = new System.Drawing.Size(100, 30);
-            this.toolStripButton6.Text = "6 классы";
+            this.six_call_tlstr.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.six_call_tlstr.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.six_call_tlstr.Image = ((System.Drawing.Image)(resources.GetObject("six_call_tlstr.Image")));
+            this.six_call_tlstr.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.six_call_tlstr.Name = "six_call_tlstr";
+            this.six_call_tlstr.Size = new System.Drawing.Size(100, 30);
+            this.six_call_tlstr.Text = "6 классы";
             // 
             // toolStripSeparator7
             // 
             this.toolStripSeparator7.Name = "toolStripSeparator7";
             this.toolStripSeparator7.Size = new System.Drawing.Size(6, 33);
             // 
-            // toolStripButton7
+            // seventh_call_tlstr
             // 
-            this.toolStripButton7.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton7.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.toolStripButton7.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton7.Image")));
-            this.toolStripButton7.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton7.Name = "toolStripButton7";
-            this.toolStripButton7.Size = new System.Drawing.Size(100, 30);
-            this.toolStripButton7.Text = "7 классы";
+            this.seventh_call_tlstr.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.seventh_call_tlstr.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.seventh_call_tlstr.Image = ((System.Drawing.Image)(resources.GetObject("seventh_call_tlstr.Image")));
+            this.seventh_call_tlstr.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.seventh_call_tlstr.Name = "seventh_call_tlstr";
+            this.seventh_call_tlstr.Size = new System.Drawing.Size(100, 30);
+            this.seventh_call_tlstr.Text = "7 классы";
             // 
             // toolStripSeparator8
             // 
             this.toolStripSeparator8.Name = "toolStripSeparator8";
             this.toolStripSeparator8.Size = new System.Drawing.Size(6, 33);
             // 
-            // toolStripButton8
+            // eighth_call_tlstr
             // 
-            this.toolStripButton8.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton8.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.toolStripButton8.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton8.Image")));
-            this.toolStripButton8.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton8.Name = "toolStripButton8";
-            this.toolStripButton8.Size = new System.Drawing.Size(100, 30);
-            this.toolStripButton8.Text = "8 классы";
+            this.eighth_call_tlstr.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.eighth_call_tlstr.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.eighth_call_tlstr.Image = ((System.Drawing.Image)(resources.GetObject("eighth_call_tlstr.Image")));
+            this.eighth_call_tlstr.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.eighth_call_tlstr.Name = "eighth_call_tlstr";
+            this.eighth_call_tlstr.Size = new System.Drawing.Size(100, 30);
+            this.eighth_call_tlstr.Text = "8 классы";
             // 
             // toolStripSeparator9
             // 
             this.toolStripSeparator9.Name = "toolStripSeparator9";
             this.toolStripSeparator9.Size = new System.Drawing.Size(6, 33);
             // 
-            // toolStripButton9
+            // ninth_call_tlstr
             // 
-            this.toolStripButton9.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton9.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.toolStripButton9.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton9.Image")));
-            this.toolStripButton9.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton9.Name = "toolStripButton9";
-            this.toolStripButton9.Size = new System.Drawing.Size(100, 30);
-            this.toolStripButton9.Text = "9 классы";
+            this.ninth_call_tlstr.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.ninth_call_tlstr.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ninth_call_tlstr.Image = ((System.Drawing.Image)(resources.GetObject("ninth_call_tlstr.Image")));
+            this.ninth_call_tlstr.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.ninth_call_tlstr.Name = "ninth_call_tlstr";
+            this.ninth_call_tlstr.Size = new System.Drawing.Size(100, 30);
+            this.ninth_call_tlstr.Text = "9 классы";
             // 
             // toolStripSeparator10
             // 
             this.toolStripSeparator10.Name = "toolStripSeparator10";
             this.toolStripSeparator10.Size = new System.Drawing.Size(6, 33);
             // 
-            // toolStripButton10
+            // tenth_call_tlstr
             // 
-            this.toolStripButton10.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton10.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.toolStripButton10.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton10.Image")));
-            this.toolStripButton10.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton10.Name = "toolStripButton10";
-            this.toolStripButton10.Size = new System.Drawing.Size(109, 30);
-            this.toolStripButton10.Text = "10 классы";
+            this.tenth_call_tlstr.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.tenth_call_tlstr.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tenth_call_tlstr.Image = ((System.Drawing.Image)(resources.GetObject("tenth_call_tlstr.Image")));
+            this.tenth_call_tlstr.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tenth_call_tlstr.Name = "tenth_call_tlstr";
+            this.tenth_call_tlstr.Size = new System.Drawing.Size(109, 30);
+            this.tenth_call_tlstr.Text = "10 классы";
             // 
             // toolStripSeparator11
             // 
             this.toolStripSeparator11.Name = "toolStripSeparator11";
             this.toolStripSeparator11.Size = new System.Drawing.Size(6, 33);
             // 
-            // toolStripButton11
+            // eleventh_call_tlstr
             // 
-            this.toolStripButton11.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton11.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.toolStripButton11.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton11.Image")));
-            this.toolStripButton11.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton11.Name = "toolStripButton11";
-            this.toolStripButton11.Size = new System.Drawing.Size(106, 30);
-            this.toolStripButton11.Text = "11 классы";
+            this.eleventh_call_tlstr.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.eleventh_call_tlstr.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.eleventh_call_tlstr.Image = ((System.Drawing.Image)(resources.GetObject("eleventh_call_tlstr.Image")));
+            this.eleventh_call_tlstr.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.eleventh_call_tlstr.Name = "eleventh_call_tlstr";
+            this.eleventh_call_tlstr.Size = new System.Drawing.Size(106, 30);
+            this.eleventh_call_tlstr.Text = "11 классы";
             // 
             // toolStripSeparator12
             // 
@@ -333,25 +345,25 @@
             // 
             this.week_day_lbl.AutoSize = true;
             this.week_day_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.week_day_lbl.Location = new System.Drawing.Point(457, 53);
+            this.week_day_lbl.Location = new System.Drawing.Point(17, 109);
             this.week_day_lbl.Name = "week_day_lbl";
-            this.week_day_lbl.Size = new System.Drawing.Size(102, 18);
+            this.week_day_lbl.Size = new System.Drawing.Size(47, 18);
             this.week_day_lbl.TabIndex = 4;
-            this.week_day_lbl.Text = "День недели:";
+            this.week_day_lbl.Text = "Дата:";
             // 
             // menu_date
             // 
             this.menu_date.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.menu_date.Location = new System.Drawing.Point(587, 48);
+            this.menu_date.Location = new System.Drawing.Point(86, 104);
             this.menu_date.Name = "menu_date";
-            this.menu_date.Size = new System.Drawing.Size(266, 24);
+            this.menu_date.Size = new System.Drawing.Size(287, 24);
             this.menu_date.TabIndex = 5;
             // 
             // break_lbl
             // 
             this.break_lbl.AutoSize = true;
             this.break_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.break_lbl.Location = new System.Drawing.Point(103, 88);
+            this.break_lbl.Location = new System.Drawing.Point(104, 163);
             this.break_lbl.Name = "break_lbl";
             this.break_lbl.Size = new System.Drawing.Size(91, 24);
             this.break_lbl.TabIndex = 6;
@@ -361,7 +373,7 @@
             // 
             this.dinner_lbl.AutoSize = true;
             this.dinner_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.dinner_lbl.Location = new System.Drawing.Point(400, 88);
+            this.dinner_lbl.Location = new System.Drawing.Point(401, 163);
             this.dinner_lbl.Name = "dinner_lbl";
             this.dinner_lbl.Size = new System.Drawing.Size(63, 24);
             this.dinner_lbl.TabIndex = 7;
@@ -371,7 +383,7 @@
             // 
             this.aft_lbl.AutoSize = true;
             this.aft_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.aft_lbl.Location = new System.Drawing.Point(668, 88);
+            this.aft_lbl.Location = new System.Drawing.Point(669, 163);
             this.aft_lbl.Name = "aft_lbl";
             this.aft_lbl.Size = new System.Drawing.Size(94, 24);
             this.aft_lbl.TabIndex = 8;
@@ -381,7 +393,7 @@
             // 
             this.rec_break_kal_lbl.AutoSize = true;
             this.rec_break_kal_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.rec_break_kal_lbl.Location = new System.Drawing.Point(67, 117);
+            this.rec_break_kal_lbl.Location = new System.Drawing.Point(68, 192);
             this.rec_break_kal_lbl.Name = "rec_break_kal_lbl";
             this.rec_break_kal_lbl.Size = new System.Drawing.Size(18, 20);
             this.rec_break_kal_lbl.TabIndex = 9;
@@ -391,7 +403,7 @@
             // 
             this.gran2.AutoSize = true;
             this.gran2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.gran2.Location = new System.Drawing.Point(135, 119);
+            this.gran2.Location = new System.Drawing.Point(136, 194);
             this.gran2.Name = "gran2";
             this.gran2.Size = new System.Drawing.Size(15, 20);
             this.gran2.TabIndex = 10;
@@ -401,7 +413,7 @@
             // 
             this.break_day_kal_lbl.AutoSize = true;
             this.break_day_kal_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.break_day_kal_lbl.Location = new System.Drawing.Point(185, 117);
+            this.break_day_kal_lbl.Location = new System.Drawing.Point(186, 192);
             this.break_day_kal_lbl.Name = "break_day_kal_lbl";
             this.break_day_kal_lbl.Size = new System.Drawing.Size(64, 20);
             this.break_day_kal_lbl.TabIndex = 11;
@@ -411,7 +423,7 @@
             // 
             this.rec_din_kal_lbl.AutoSize = true;
             this.rec_din_kal_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.rec_din_kal_lbl.Location = new System.Drawing.Point(354, 117);
+            this.rec_din_kal_lbl.Location = new System.Drawing.Point(355, 192);
             this.rec_din_kal_lbl.Name = "rec_din_kal_lbl";
             this.rec_din_kal_lbl.Size = new System.Drawing.Size(18, 20);
             this.rec_din_kal_lbl.TabIndex = 12;
@@ -421,7 +433,7 @@
             // 
             this.gran3.AutoSize = true;
             this.gran3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.gran3.Location = new System.Drawing.Point(418, 117);
+            this.gran3.Location = new System.Drawing.Point(419, 192);
             this.gran3.Name = "gran3";
             this.gran3.Size = new System.Drawing.Size(15, 20);
             this.gran3.TabIndex = 13;
@@ -431,7 +443,7 @@
             // 
             this.din_day_kal_lbl.AutoSize = true;
             this.din_day_kal_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.din_day_kal_lbl.Location = new System.Drawing.Point(472, 117);
+            this.din_day_kal_lbl.Location = new System.Drawing.Point(473, 192);
             this.din_day_kal_lbl.Name = "din_day_kal_lbl";
             this.din_day_kal_lbl.Size = new System.Drawing.Size(64, 20);
             this.din_day_kal_lbl.TabIndex = 14;
@@ -441,7 +453,7 @@
             // 
             this.rec_aft_kal_lbl.AutoSize = true;
             this.rec_aft_kal_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.rec_aft_kal_lbl.Location = new System.Drawing.Point(638, 119);
+            this.rec_aft_kal_lbl.Location = new System.Drawing.Point(639, 194);
             this.rec_aft_kal_lbl.Name = "rec_aft_kal_lbl";
             this.rec_aft_kal_lbl.Size = new System.Drawing.Size(18, 20);
             this.rec_aft_kal_lbl.TabIndex = 15;
@@ -451,7 +463,7 @@
             // 
             this.gran4.AutoSize = true;
             this.gran4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.gran4.Location = new System.Drawing.Point(706, 119);
+            this.gran4.Location = new System.Drawing.Point(707, 194);
             this.gran4.Name = "gran4";
             this.gran4.Size = new System.Drawing.Size(15, 20);
             this.gran4.TabIndex = 16;
@@ -461,7 +473,7 @@
             // 
             this.aft_day_kal_lbl.AutoSize = true;
             this.aft_day_kal_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.aft_day_kal_lbl.Location = new System.Drawing.Point(760, 117);
+            this.aft_day_kal_lbl.Location = new System.Drawing.Point(761, 192);
             this.aft_day_kal_lbl.Name = "aft_day_kal_lbl";
             this.aft_day_kal_lbl.Size = new System.Drawing.Size(64, 20);
             this.aft_day_kal_lbl.TabIndex = 17;
@@ -472,7 +484,7 @@
             this.break_dish_list.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.break_dish_list.FormattingEnabled = true;
             this.break_dish_list.ItemHeight = 17;
-            this.break_dish_list.Location = new System.Drawing.Point(17, 139);
+            this.break_dish_list.Location = new System.Drawing.Point(18, 214);
             this.break_dish_list.Name = "break_dish_list";
             this.break_dish_list.Size = new System.Drawing.Size(266, 327);
             this.break_dish_list.TabIndex = 18;
@@ -482,7 +494,7 @@
             this.din_dish_list.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.din_dish_list.FormattingEnabled = true;
             this.din_dish_list.ItemHeight = 17;
-            this.din_dish_list.Location = new System.Drawing.Point(301, 139);
+            this.din_dish_list.Location = new System.Drawing.Point(302, 214);
             this.din_dish_list.Name = "din_dish_list";
             this.din_dish_list.Size = new System.Drawing.Size(267, 327);
             this.din_dish_list.TabIndex = 19;
@@ -492,7 +504,7 @@
             this.aft_dish_list.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.aft_dish_list.FormattingEnabled = true;
             this.aft_dish_list.ItemHeight = 17;
-            this.aft_dish_list.Location = new System.Drawing.Point(587, 141);
+            this.aft_dish_list.Location = new System.Drawing.Point(588, 216);
             this.aft_dish_list.Name = "aft_dish_list";
             this.aft_dish_list.Size = new System.Drawing.Size(266, 327);
             this.aft_dish_list.TabIndex = 20;
@@ -501,7 +513,7 @@
             // 
             this.add_break_dish_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.add_break_dish_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.add_break_dish_btn.Location = new System.Drawing.Point(19, 464);
+            this.add_break_dish_btn.Location = new System.Drawing.Point(20, 539);
             this.add_break_dish_btn.Name = "add_break_dish_btn";
             this.add_break_dish_btn.Size = new System.Drawing.Size(264, 38);
             this.add_break_dish_btn.TabIndex = 21;
@@ -513,7 +525,7 @@
             // 
             this.del_break_dish_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.del_break_dish_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.del_break_dish_btn.Location = new System.Drawing.Point(19, 507);
+            this.del_break_dish_btn.Location = new System.Drawing.Point(20, 582);
             this.del_break_dish_btn.Name = "del_break_dish_btn";
             this.del_break_dish_btn.Size = new System.Drawing.Size(264, 38);
             this.del_break_dish_btn.TabIndex = 22;
@@ -525,7 +537,7 @@
             // 
             this.add_din_dish_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.add_din_dish_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.add_din_dish_btn.Location = new System.Drawing.Point(301, 464);
+            this.add_din_dish_btn.Location = new System.Drawing.Point(302, 539);
             this.add_din_dish_btn.Name = "add_din_dish_btn";
             this.add_din_dish_btn.Size = new System.Drawing.Size(267, 38);
             this.add_din_dish_btn.TabIndex = 23;
@@ -537,7 +549,7 @@
             // 
             this.del_din_dish_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.del_din_dish_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.del_din_dish_btn.Location = new System.Drawing.Point(301, 507);
+            this.del_din_dish_btn.Location = new System.Drawing.Point(302, 582);
             this.del_din_dish_btn.Name = "del_din_dish_btn";
             this.del_din_dish_btn.Size = new System.Drawing.Size(267, 38);
             this.del_din_dish_btn.TabIndex = 24;
@@ -549,7 +561,7 @@
             // 
             this.add_aft_dish_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.add_aft_dish_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.add_aft_dish_btn.Location = new System.Drawing.Point(587, 466);
+            this.add_aft_dish_btn.Location = new System.Drawing.Point(588, 541);
             this.add_aft_dish_btn.Name = "add_aft_dish_btn";
             this.add_aft_dish_btn.Size = new System.Drawing.Size(266, 38);
             this.add_aft_dish_btn.TabIndex = 25;
@@ -561,7 +573,7 @@
             // 
             this.del_aft_dish_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.del_aft_dish_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.del_aft_dish_btn.Location = new System.Drawing.Point(587, 509);
+            this.del_aft_dish_btn.Location = new System.Drawing.Point(588, 584);
             this.del_aft_dish_btn.Name = "del_aft_dish_btn";
             this.del_aft_dish_btn.Size = new System.Drawing.Size(266, 38);
             this.del_aft_dish_btn.TabIndex = 26;
@@ -573,7 +585,7 @@
             // 
             this.choose_comp_menu_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.choose_comp_menu_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.choose_comp_menu_btn.Location = new System.Drawing.Point(161, 550);
+            this.choose_comp_menu_btn.Location = new System.Drawing.Point(162, 625);
             this.choose_comp_menu_btn.Name = "choose_comp_menu_btn";
             this.choose_comp_menu_btn.Size = new System.Drawing.Size(267, 65);
             this.choose_comp_menu_btn.TabIndex = 27;
@@ -584,12 +596,13 @@
             // 
             this.save_all_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.save_all_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.save_all_btn.Location = new System.Drawing.Point(445, 550);
+            this.save_all_btn.Location = new System.Drawing.Point(446, 625);
             this.save_all_btn.Name = "save_all_btn";
             this.save_all_btn.Size = new System.Drawing.Size(267, 65);
             this.save_all_btn.TabIndex = 28;
             this.save_all_btn.Text = "Сохранить всё";
             this.save_all_btn.UseVisualStyleBackColor = false;
+            this.save_all_btn.Click += new System.EventHandler(this.save_all_btn_Click);
             // 
             // all_dish_list
             // 
@@ -644,7 +657,7 @@
             // 
             // search_btn
             // 
-            this.search_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.search_btn.BackColor = System.Drawing.Color.PaleTurquoise;
             this.search_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.search_btn.Location = new System.Drawing.Point(1076, 99);
             this.search_btn.Name = "search_btn";
@@ -689,11 +702,124 @@
             this.line.Text = "_________________________________________________________________________________" +
     "_________________________________________________________________________";
             // 
+            // proteins_lbl
+            // 
+            this.proteins_lbl.AutoSize = true;
+            this.proteins_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.proteins_lbl.Location = new System.Drawing.Point(558, 56);
+            this.proteins_lbl.Name = "proteins_lbl";
+            this.proteins_lbl.Size = new System.Drawing.Size(19, 18);
+            this.proteins_lbl.TabIndex = 38;
+            this.proteins_lbl.Text = "Б";
+            // 
+            // fats_lbl
+            // 
+            this.fats_lbl.AutoSize = true;
+            this.fats_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.fats_lbl.Location = new System.Drawing.Point(641, 55);
+            this.fats_lbl.Name = "fats_lbl";
+            this.fats_lbl.Size = new System.Drawing.Size(23, 18);
+            this.fats_lbl.TabIndex = 39;
+            this.fats_lbl.Text = "Ж";
+            // 
+            // carbohydrates_lbl
+            // 
+            this.carbohydrates_lbl.AutoSize = true;
+            this.carbohydrates_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.carbohydrates_lbl.Location = new System.Drawing.Point(725, 56);
+            this.carbohydrates_lbl.Name = "carbohydrates_lbl";
+            this.carbohydrates_lbl.Size = new System.Drawing.Size(19, 18);
+            this.carbohydrates_lbl.TabIndex = 40;
+            this.carbohydrates_lbl.Text = "У";
+            // 
+            // norm_lbl
+            // 
+            this.norm_lbl.AutoSize = true;
+            this.norm_lbl.Location = new System.Drawing.Point(467, 91);
+            this.norm_lbl.Name = "norm_lbl";
+            this.norm_lbl.Size = new System.Drawing.Size(55, 17);
+            this.norm_lbl.TabIndex = 41;
+            this.norm_lbl.Text = "Норма:";
+            // 
+            // typed_lbl
+            // 
+            this.typed_lbl.AutoSize = true;
+            this.typed_lbl.Location = new System.Drawing.Point(467, 129);
+            this.typed_lbl.Name = "typed_lbl";
+            this.typed_lbl.Size = new System.Drawing.Size(70, 17);
+            this.typed_lbl.TabIndex = 42;
+            this.typed_lbl.Text = "Набрано:";
+            // 
+            // norm_proteins_lbl
+            // 
+            this.norm_proteins_lbl.AutoSize = true;
+            this.norm_proteins_lbl.Location = new System.Drawing.Point(560, 91);
+            this.norm_proteins_lbl.Name = "norm_proteins_lbl";
+            this.norm_proteins_lbl.Size = new System.Drawing.Size(16, 17);
+            this.norm_proteins_lbl.TabIndex = 43;
+            this.norm_proteins_lbl.Text = "0";
+            // 
+            // norm_fats_lbl
+            // 
+            this.norm_fats_lbl.AutoSize = true;
+            this.norm_fats_lbl.Location = new System.Drawing.Point(645, 91);
+            this.norm_fats_lbl.Name = "norm_fats_lbl";
+            this.norm_fats_lbl.Size = new System.Drawing.Size(16, 17);
+            this.norm_fats_lbl.TabIndex = 44;
+            this.norm_fats_lbl.Text = "0";
+            // 
+            // norm_carbohydrates_lbl
+            // 
+            this.norm_carbohydrates_lbl.AutoSize = true;
+            this.norm_carbohydrates_lbl.Location = new System.Drawing.Point(726, 91);
+            this.norm_carbohydrates_lbl.Name = "norm_carbohydrates_lbl";
+            this.norm_carbohydrates_lbl.Size = new System.Drawing.Size(16, 17);
+            this.norm_carbohydrates_lbl.TabIndex = 45;
+            this.norm_carbohydrates_lbl.Text = "0";
+            // 
+            // typed_proteins_lbl
+            // 
+            this.typed_proteins_lbl.AutoSize = true;
+            this.typed_proteins_lbl.Location = new System.Drawing.Point(560, 129);
+            this.typed_proteins_lbl.Name = "typed_proteins_lbl";
+            this.typed_proteins_lbl.Size = new System.Drawing.Size(16, 17);
+            this.typed_proteins_lbl.TabIndex = 46;
+            this.typed_proteins_lbl.Text = "0";
+            // 
+            // typed_fats_lbl
+            // 
+            this.typed_fats_lbl.AutoSize = true;
+            this.typed_fats_lbl.Location = new System.Drawing.Point(645, 129);
+            this.typed_fats_lbl.Name = "typed_fats_lbl";
+            this.typed_fats_lbl.Size = new System.Drawing.Size(16, 17);
+            this.typed_fats_lbl.TabIndex = 47;
+            this.typed_fats_lbl.Text = "0";
+            // 
+            // typed_carbohydrates_lbl
+            // 
+            this.typed_carbohydrates_lbl.AutoSize = true;
+            this.typed_carbohydrates_lbl.Location = new System.Drawing.Point(726, 129);
+            this.typed_carbohydrates_lbl.Name = "typed_carbohydrates_lbl";
+            this.typed_carbohydrates_lbl.Size = new System.Drawing.Size(16, 17);
+            this.typed_carbohydrates_lbl.TabIndex = 48;
+            this.typed_carbohydrates_lbl.Text = "0";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1285, 625);
+            this.ClientSize = new System.Drawing.Size(1285, 703);
+            this.Controls.Add(this.typed_carbohydrates_lbl);
+            this.Controls.Add(this.typed_fats_lbl);
+            this.Controls.Add(this.typed_proteins_lbl);
+            this.Controls.Add(this.norm_carbohydrates_lbl);
+            this.Controls.Add(this.norm_fats_lbl);
+            this.Controls.Add(this.norm_proteins_lbl);
+            this.Controls.Add(this.typed_lbl);
+            this.Controls.Add(this.norm_lbl);
+            this.Controls.Add(this.carbohydrates_lbl);
+            this.Controls.Add(this.fats_lbl);
+            this.Controls.Add(this.proteins_lbl);
             this.Controls.Add(this.del_dish_btn);
             this.Controls.Add(this.add_dish_btn);
             this.Controls.Add(this.search_btn);
@@ -744,8 +870,8 @@
         #endregion
 
         private System.Windows.Forms.ToolStrip class_toolstr;
-        private System.Windows.Forms.ToolStripButton toolStripButton2;
-        private System.Windows.Forms.ToolStripButton toolStripButton3;
+        private System.Windows.Forms.ToolStripButton second_call_tlstr;
+        private System.Windows.Forms.ToolStripButton third_call_tlstr;
         private System.Windows.Forms.Label earn_day_kal_lbl;
         private System.Windows.Forms.Label gran;
         private System.Windows.Forms.Label glob_day_kal_lbl;
@@ -782,28 +908,39 @@
         private System.Windows.Forms.Button search_btn;
         private System.Windows.Forms.Button add_dish_btn;
         private System.Windows.Forms.Button del_dish_btn;
-        private System.Windows.Forms.ToolStripButton toolStripButton1;
+        private System.Windows.Forms.ToolStripButton first_call_tlstr;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
-        private System.Windows.Forms.ToolStripButton toolStripButton4;
+        private System.Windows.Forms.ToolStripButton four_call_tlstr;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
-        private System.Windows.Forms.ToolStripButton toolStripButton5;
+        private System.Windows.Forms.ToolStripButton fifth_call_tlstr;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
-        private System.Windows.Forms.ToolStripButton toolStripButton6;
+        private System.Windows.Forms.ToolStripButton six_call_tlstr;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
-        private System.Windows.Forms.ToolStripButton toolStripButton7;
+        private System.Windows.Forms.ToolStripButton seventh_call_tlstr;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
-        private System.Windows.Forms.ToolStripButton toolStripButton8;
+        private System.Windows.Forms.ToolStripButton eighth_call_tlstr;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
-        private System.Windows.Forms.ToolStripButton toolStripButton9;
+        private System.Windows.Forms.ToolStripButton ninth_call_tlstr;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator10;
-        private System.Windows.Forms.ToolStripButton toolStripButton10;
+        private System.Windows.Forms.ToolStripButton tenth_call_tlstr;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator11;
-        private System.Windows.Forms.ToolStripButton toolStripButton11;
+        private System.Windows.Forms.ToolStripButton eleventh_call_tlstr;
         private System.Windows.Forms.Label line;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator12;
+        private System.Windows.Forms.Label proteins_lbl;
+        private System.Windows.Forms.Label fats_lbl;
+        private System.Windows.Forms.Label carbohydrates_lbl;
+        private System.Windows.Forms.Label norm_lbl;
+        private System.Windows.Forms.Label typed_lbl;
+        private System.Windows.Forms.Label norm_proteins_lbl;
+        private System.Windows.Forms.Label norm_fats_lbl;
+        private System.Windows.Forms.Label norm_carbohydrates_lbl;
+        private System.Windows.Forms.Label typed_proteins_lbl;
+        private System.Windows.Forms.Label typed_fats_lbl;
+        private System.Windows.Forms.Label typed_carbohydrates_lbl;
     }
 }
 

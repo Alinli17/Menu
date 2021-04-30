@@ -39,5 +39,10 @@ namespace Menu
 
             this.Close();
         }
+
+        private void cal_lbl_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

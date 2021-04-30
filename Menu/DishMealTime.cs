@@ -28,5 +28,10 @@ namespace Menu
         public virtual ICollection<ClassMenu> ClassMenus { get; set; }
         public virtual Dish Dish { get; set; }
         public virtual MealTime MealTime1 { get; set; }
+
+        public override string ToString()
+        {
+            return Dish.DishName + " — " + Dish.Calories + " ккал";
+        }
     }
 }
